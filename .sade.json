@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "generated_by": "llm",
+  "last_analyzed": "2026-03-05T19:13:47-03:00",
+  "nodes": [
+    {
+      "id": "root",
+      "label": "vintage-story-companion-app",
+      "description": "Project root - React Router v7 application for Vintage Story game companion",
+      "manual": false,
+      "parent": null,
+      "files": ["package.json", "package-lock.json", "tsconfig.json", "vite.config.ts", "react-router.config.ts", "Dockerfile", "README.md", "SADE.md"]
+    },
+    {
+      "id": "app",
+      "label": "app",
+      "description": "Main React Router application directory containing root component, routes, and styles",
+      "manual": false,
+      "parent": "root",
+      "files": ["app/root.tsx", "app/routes.ts", "app/app.css"]
+    },
+    {
+      "id": "routes",
+      "label": "routes",
+      "description": "Route definitions and page components",
+      "manual": false,
+      "parent": "app",
+      "files": ["app/routes/home.tsx"]
+    },
+    {
+      "id": "components",
+      "label": "components",
+      "description": "Reusable UI components",
+      "manual": false,
+      "parent": "app",
+      "files": ["app/welcome/welcome.tsx", "app/welcome/logo-light.svg", "app/welcome/logo-dark.svg"]
+    },
+    {
+      "id": "config",
+      "label": "config",
+      "description": "Build and development configuration files",
+      "manual": false,
+      "parent": "root",
+      "files": ["vite.config.ts", "react-router.config.ts", "tsconfig.json"]
+    },
+    {
+      "id": "public",
+      "label": "public",
+      "description": "Public static assets",
+      "manual": false,
+      "parent": "root",
+      "files": []
+    },
+    {
+      "id": "assets",
+      "label": "assets",
+      "description": "Project assets",
+      "manual": false,
+      "parent": "root",
+      "files": []
+    },
+    {
+      "id": "generated",
+      "label": "generated",
+      "description": "Auto-generated type definitions by React Router",
+      "manual": false,
+      "parent": "root",
+      "files": [".react-router/types/+future.ts", ".react-router/types/+routes.ts", ".react-router/types/app/+types/root.ts", ".react-router/types/app/routes/+types/home.ts"]
+    }
+  ],
+  "edges": [
+    {
+      "source": "root",
+      "target": "app",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "root",
+      "target": "config",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "root",
+      "target": "public",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "root",
+      "target": "assets",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "root",
+      "target": "generated",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "app",
+      "target": "routes",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "app",
+      "target": "components",
+      "type": "contains",
+      "manual": false
+    },
+    {
+      "source": "routes",
+      "target": "components",
+      "type": "imports",
+      "manual": false,
+      "note": "Home route imports Welcome component"
+    },
+    {
+      "source": "app",
+      "target": "config",
+      "type": "imports",
+      "manual": false,
+      "note": "App uses React Router configuration"
+    }
+  ]
+}

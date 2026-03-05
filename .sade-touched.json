@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\Luis Juca\\Documents\\GitHub\\vintage-story-companion-app\\app\\app.css",
+      "timestamp": "2026-03-05T22:18:15.526Z"
+    },
+    {
+      "path": "C:\\Users\\Luis Juca\\Documents\\GitHub\\vintage-story-companion-app\\app\\root.tsx",
+      "timestamp": "2026-03-05T22:19:16.226Z"
+    },
+    {
+      "path": "C:\\Users\\Luis Juca\\Documents\\GitHub\\vintage-story-companion-app\\app\\routes\\home.tsx",
+      "timestamp": "2026-03-05T22:20:54.828Z"
+    },
+    {
+      "path": "C:\\Users\\Luis Juca\\Documents\\GitHub\\vintage-story-companion-app\\app\\routes\\recipes.tsx",
+      "timestamp": "2026-03-05T22:33:30.426Z"
+    },
+    {
+      "path": "C:\\Users\\Luis Juca\\Documents\\GitHub\\vintage-story-companion-app\\app\\routes",
+      "timestamp": "2026-03-05T22:33:30.428Z"
+    },
+    {
+      "path": "C:\\Users\\Luis Juca\\Documents\\GitHub\\vintage-story-companion-app\\app\\routes.ts",
+      "timestamp": "2026-03-05T22:33:33.326Z"
+    }
+  ]
+}
